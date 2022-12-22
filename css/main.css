@@ -1,0 +1,219 @@
+body {
+    margin: auto 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: auto;
+    background-color:#202124;
+}
+
+main {
+    margin-top: 5px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img { 
+
+    width: 550px;
+    height: 200px;
+}
+
+main .main-input {
+    width: 650px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    color: #bdc1c6;
+    
+}
+
+main  .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #3c4043;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-color: #757575;
+
+}
+
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #202124;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+    
+}
+
+main .main-input .search-icon{
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+    color:#ffffff
+}
+
+main .main-input .micro-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+main .main-input .picture-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Google_Lens_-_new_logo.png/900px-Google_Lens_-_new_logo.png?20190923195834');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    color: #ffffff;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+nav .nav-right-section a{
+    margin-right: 25px;
+    color: #ffffff;
+}
+
+nav .nav-right-section img {
+    border-radius: 80px;
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+    color:#ffffff
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url('https://cdn.icon-icons.com/icons2/3446/PNG/512/menu_configuration_options_tools_icon_219239.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    color: #f2f2f2;
+}
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+main .main-buttons button{
+    height: 36px;
+    background-color: #303134;
+    border: 0;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+    
+}
+
+main .main-buttons button:hover{
+    border: 1px solid #f2f2f2;
+    box-shadow:  #f2f2f2;
+    
+
+}
+
+
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    background-color: #030000;
+    color: #989797;
+}
+
+.footer-location{
+    padding: 18px 30px;
+    border-bottom: .00001px solid ;
+    font-size: 14.5px;
+}
+
+.footer-location a{
+    color: #989797;
+    margin-left: 980px;
+}
+
+
+.footer-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.left-menu a   {
+    text-decoration: none;
+    color: #989797 ;
+    padding: 0 20 px 0 0 ;
+    margin-right: 19px;
+    justify-content: space-between;
+}
+.right-menu a {
+    margin-left: 12px;
+    text-decoration: none;
+    color: #989797;
+    padding: 0 20 px 0 0 ;
+}
+
+
+.left-menu a:hover, 
+.right-menu a:hover{
+    text-decoration: underline;
+}
+
